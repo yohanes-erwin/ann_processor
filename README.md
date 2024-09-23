@@ -136,3 +136,38 @@ $$
 0.01	&	0.98	&	0.98	&	0.01	&	0.01	&	0.98\\
 \end{bmatrix}
 $$
+
+## RTL Simulation
+
+### Systolic Module
+
+Simulation of `systolic.v` module using `systolic_tb.v` testbench.
+
+Matrix multiplication hidden layer 1:
+![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/output_hidden1.png)
+
+Verification with the model. The decimal may be different due to rounding and fixed-point implementation.
+
+$$
+Z_2=
+\begin{bmatrix}
+13.9	& -5.9 & -4.2 & 11.9 & 3.9 & -5.1\\
+8.6	& 5.7	& 11	& 6.5	& 12.3	& 12.1\\
+9.7	& 10.3	& 13.2	& 5.7	& 16.5	& 20.8\\
+-13.4	& 5.5	& 3.7	& -11.9	& -3.1	& 5.2\\
+8.3	& 11.4	& 12.1	& 7.8	& 14.4	& 10.5\\
+\end{bmatrix}
+$$
+
+Matrix multiplication hidden layer 2:
+![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/output_hidden2.png)
+
+Verification with the model. The decimal may be different due to rounding and fixed-point implementation.
+
+$$
+Z_3=
+\begin{bmatrix}
+4.29 &	-4.37 & -4.23 &	4.29 & 4.04 & -4.34\\
+-4.50	& 4.27	& 4.13 &	-4.50	& -4.23	& 4.24\\
+\end{bmatrix}
+$$
