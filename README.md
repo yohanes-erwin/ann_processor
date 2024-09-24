@@ -190,9 +190,22 @@ Simulation of `axis_ann.v` module using `axis_ann_tb.v` testbench.
 
 ![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/axis_ann_module.jpg)
 
+How it works:
+1. Start the controller FSM
+2. Read input from memory followed by weight and bias 2
+3. Systolic input stream hidden layer 1
+4. Output stream from sigmoid hidden layer 1
+5. Read weight and bias 3 from memory
+6. Systolic input stream hidden layer 2
+7. Output from sigmoid hidden layer 2
+8. Write output to memory
+9. Done signal
+
 AXIS ANN core timing diagram.
 
 ![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/axis_ann_module.png)
+
+AXIS packet showing input packet and output packet from two inferences.
 
 ## SoC Design
 
