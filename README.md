@@ -143,6 +143,8 @@ $$
 
 Simulation of `systolic.v` module using `systolic_tb.v` testbench.
 
+![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/systolic_module.jpg)
+
 Matrix multiplication hidden layer 1:
 ![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/output_hidden1.png)
 
@@ -171,3 +173,55 @@ Z_3=
 -4.50	& 4.27	& 4.13 &	-4.50	& -4.23	& 4.24\\
 \end{bmatrix}
 $$
+
+### ANN Module
+
+Simulation of `ann.v` module using `ann_tb.v` testbench.
+
+![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/ann_module.jpg)
+
+ANN core timing diagram.
+
+![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/ann_module.png)
+
+### AXIS ANN Module
+
+Simulation of `axis_ann.v` module using `axis_ann_tb.v` testbench.
+
+![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/axis_ann_module.jpg)
+
+AXIS ANN core timing diagram.
+
+![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/axis_ann_module.png)
+
+## SoC Design
+
+Block design of the system.
+
+![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/block_design.png)
+
+ZYNQ configuration.
+
+![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/zynq.png)
+
+DMA configuration.
+
+![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/dma.png)
+
+## Result
+
+Inference result from PYNQ Jupyter Notebook `ann_hw.ipynb`.
+
+![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/result.png)
+
+Performance comparison with SW (numpy) `ann_compare.ipynb`.
+
+| Number of Inference | HW Computation Time [s] | SW Computation Time [s] |
+|---------------------|-------------------------|-------------------------|
+| 1                   | 0.011                   | 0.002                   |
+| 10                  | 0.012                   | 0.004                   |
+| 100                 | 0.027                   | 0.023                   |
+| 1000                | 0.181                   | 0.210                   |
+| 10000               | 1.700                   | 2.003                   |
+| 100000              | 16.937                  | 19.223                  |
+| 1000000             | 168.306                 | 192.882                 |
