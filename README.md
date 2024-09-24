@@ -1,9 +1,35 @@
 # ANN Processor Design
 
-An implementation of an ANN processor on the Kria KV260 board. The design was implemented using 6x6 systolic matrix multiplication for a simple ANN.
+An implementation of an ANN processor on the Kria KV260 board. The design was implemented using 6x6 systolic matrix multiplication.
+
+Tested on:
+- Kria KV260 with PYNQ framework
+- Vivado 2022.1
+
+## Application
+
+Classification of someone's tastes to Indonesian food.
+
+### Dataset
+
+Dataset of someone's taste.
+
+| Name       	| Sour 	| Sweet 	| Salty 	| Spicy 	| Taste   	| Label 	|
+|------------	|------	|-------	|-------	|-------	|---------	|-------	|
+| Sate       	| 2    	| 10    	| 5     	| 5     	| Like    	| [1,0] 	|
+| Soto       	| 7    	| 2     	| 3     	| 3     	| Dislike 	| [0,1] 	|
+| Karedok    	| 6    	| 8     	| 1     	| 6     	| Dislike 	| [0,1] 	|
+| Gudeg      	| 3    	| 10    	| 3     	| 1     	| Like    	| [1,0] 	|
+| Ikan Bakar 	| 6    	| 9     	| 5     	| 6     	| Like    	| [1,0] 	|
+| Rendang    	| 3    	| 2     	| 6     	| 10    	| Dislike 	| [0,1] 	|
+
+### Neural Network Architecture
+
+The network consists of three layers: input, hidden, and output. On the input layer, there are 4 nodes. On the hidden layer, there are 5 nodes. On the output layer, there are 2 nodes.
 
 ## Matlab Model
 
+Matlab/Octave model for training and inference:
 - `matlab/Back_propagation.m`: back propagation algorithm
 - `matlab/ann_training.m`: model for training
 - `matlab/ann_inference_matmul.m`: model for inference with matrix multiplication
@@ -143,7 +169,7 @@ $$
 
 Simulation of `systolic.v` module using `systolic_tb.v` testbench.
 
-<img src="[https://user-images.githubusercontent.com/link-to-your-image.png](https://github.com/yohanes-erwin/ann_processor/blob/main/image/systolic_module.jpg)" width="200" />
+<img src="https://github.com/yohanes-erwin/ann_processor/blob/main/image/systolic_module.jpg" width="600" />
 
 Matrix multiplication hidden layer 1:
 ![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/output_hidden1.png)
@@ -178,7 +204,7 @@ $$
 
 Simulation of `ann.v` module using `ann_tb.v` testbench.
 
-![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/ann_module.jpg)
+<img src="https://github.com/yohanes-erwin/ann_processor/blob/main/image/ann_module.jpg" width="700" />
 
 ANN core timing diagram.
 
@@ -199,7 +225,7 @@ How it works:
 
 Simulation of `axis_ann.v` module using `axis_ann_tb.v` testbench.
 
-![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/axis_ann_module.jpg)
+<img src="https://github.com/yohanes-erwin/ann_processor/blob/main/image/axis_ann_module.jpg" width="600" />
 
 AXIS ANN core timing diagram.
 
@@ -221,6 +247,14 @@ DMA configuration.
 
 ![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/dma.png)
 
+Data mapping inside the DDR memory for weight, bias, and input.
+
+<img src="https://github.com/yohanes-erwin/ann_processor/blob/main/image/input_buff.jpg" width="150" />
+
+Data mapping inside the DDR memory for output.
+
+<img src="https://github.com/yohanes-erwin/ann_processor/blob/main/image/output_buff.jpg" width="150" />
+
 ## Result
 
 Inference result from PYNQ Jupyter Notebook `ann_hw.ipynb`.
@@ -238,3 +272,6 @@ Performance comparison with SW (numpy) `ann_compare.ipynb`.
 | 10000               | 1.700                   | 2.003                   |
 | 100000              | 16.937                  | 19.223                  |
 | 1000000             | 168.306                 | 192.882                 |
+
+The greater the number of inferences, the faster HW computation time compared to SW computation time.
+
