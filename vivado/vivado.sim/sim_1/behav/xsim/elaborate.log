@@ -1,12 +1,57 @@
 Vivado Simulator v2022.1
 Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
-Running: C:/ProgramFiles/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot systolic_tb_behav xil_defaultlib.systolic_tb xil_defaultlib.glbl -log elaborate.log 
+Running: C:/ProgramFiles/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot axis_ann_tb_behav xil_defaultlib.axis_ann_tb xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'web' [D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/ann.v:170]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 'dinb' [D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/ann.v:172]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'web' [D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/ann.v:248]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 'dinb' [D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/ann.v:250]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'web' [D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/ann.v:694]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 'dinb' [D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/ann.v:696]
 Completed static elaboration
 Starting simulation data flow analysis
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/systolic.v" Line 1. Module systolic doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/axis_ann.v" Line 1. Module axis_ann doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register(WIDTH=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register(WIDTH=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/ann.v" Line 1. Module ann doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
@@ -64,55 +109,32 @@ WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_
 WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/pe.v" Line 1. Module pe doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/pe.v" Line 1. Module pe doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/pe.v" Line 1. Module pe doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v" Line 1. Module register doesn't have a timescale but at least one module in design has a timescale.
 INFO: [Common 17-14] Message 'XSIM 43-4099' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
+Compiling module xpm.xpm_cdc_sync_rst(INIT=0,INIT_SYN...
+Compiling module xpm.xpm_fifo_rst_default
+Compiling module xpm.xpm_fifo_reg_bit
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=9...
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=8...
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=2...
+Compiling module xpm.xpm_fifo_base(FIFO_WRITE_DEPTH=2...
+Compiling module xpm.xpm_fifo_axis(FIFO_DEPTH=256,TDA...
+Compiling module xil_defaultlib.register(WIDTH=1)
+Compiling module xpm.xpm_memory_base(MEMORY_SIZE=1024...
+Compiling module xpm.xpm_memory_tdpram(MEMORY_SIZE=10...
+Compiling module xpm.xpm_memory_base(MEMORY_SIZE=512,...
+Compiling module xpm.xpm_memory_tdpram(MEMORY_SIZE=51...
 Compiling module xil_defaultlib.register
 Compiling module xil_defaultlib.pe
-Compiling module xil_defaultlib.register(WIDTH=1)
 Compiling module xil_defaultlib.systolic
-Compiling module xil_defaultlib.systolic_tb
+Compiling module xil_defaultlib.sigmoid
+Compiling module xil_defaultlib.ann
+Compiling module xil_defaultlib.axis_ann
+Compiling module xil_defaultlib.axis_ann_tb
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot systolic_tb_behav
+Built simulation snapshot axis_ann_tb_behav

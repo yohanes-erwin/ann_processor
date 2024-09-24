@@ -3,7 +3,12 @@
 Apr 18 2022
 16:05:34
 D:/Repository/ann_processor/vivado/vivado.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+D:/Repository/ann_processor/vivado/vivado.srcs/sim_1/new/ann_tb.v,1727157124,verilog,,,,ann_tb,,,,,,,,
+D:/Repository/ann_processor/vivado/vivado.srcs/sim_1/new/axis_ann_tb.v,1727158875,verilog,,,,axis_ann_tb,,,,,,,,
 D:/Repository/ann_processor/vivado/vivado.srcs/sim_1/new/systolic_tb.v,1727070639,verilog,,,,systolic_tb,,,,,,,,
+D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/ann.v,1727157264,verilog,,D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/axis_ann.v,,ann,,,,,,,,
+D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/axis_ann.v,1727158306,verilog,,D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/pe.v,,axis_ann,,,,,,,,
 D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/pe.v,1727064821,verilog,,D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v,,pe,,,,,,,,
-D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v,1727064853,verilog,,D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/systolic.v,,register,,,,,,,,
-D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/systolic.v,1727064753,verilog,,D:/Repository/ann_processor/vivado/vivado.srcs/sim_1/new/systolic_tb.v,,systolic,,,,,,,,
+D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/register.v,1727064853,verilog,,D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/sigmoid.v,,register,,,,,,,,
+D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/sigmoid.v,1727071780,verilog,,D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/systolic.v,,sigmoid,,,,,,,,
+D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/systolic.v,1727064753,verilog,,D:/Repository/ann_processor/vivado/vivado.srcs/sim_1/new/axis_ann_tb.v,,systolic,,,,,,,,

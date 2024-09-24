@@ -1,0 +1,7 @@
+vhdl xil_defaultlib  \
+"../../../bd/design_ann/ip/design_ann_axi_dma_0_0/sim/design_ann_axi_dma_0_0.vhd" \
+"../../../bd/design_ann/ip/design_ann_rst_ps8_0_99M_0/sim/design_ann_rst_ps8_0_99M_0.vhd" \
+"../../../bd/design_ann/ip/design_ann_axi_smc_0/bd_0/ip/ip_1/sim/bd_9870_psr_aclk_0.vhd" \
+"../../../bd/design_ann/ip/design_ann_axi_smc_1_0/bd_0/ip/ip_1/sim/bd_4e4c_psr_aclk_0.vhd" \
+
+nosort
