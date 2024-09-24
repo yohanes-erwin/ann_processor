@@ -32,9 +32,9 @@ The network consists of three layers: input, hidden, and output. On the input la
 ## Matlab Model
 
 Matlab/Octave model for training and inference:
-- `matlab/Back_propagation.m`: back propagation algorithm
-- `matlab/ann_training.m`: model for training
-- `matlab/ann_inference_matmul.m`: model for inference with matrix multiplication
+- `Back_propagation.m`: back propagation algorithm
+- `ann_training.m`: model for training
+- `ann_inference_matmul.m`: model for inference with matrix multiplication
 
 ## Inference by Hand
 
