@@ -143,7 +143,7 @@ $$
 
 Simulation of `systolic.v` module using `systolic_tb.v` testbench.
 
-![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/systolic_module.jpg =250x)
+<img src="[https://user-images.githubusercontent.com/link-to-your-image.png](https://github.com/yohanes-erwin/ann_processor/blob/main/image/systolic_module.jpg)" width="200" />
 
 Matrix multiplication hidden layer 1:
 ![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/output_hidden1.png)
