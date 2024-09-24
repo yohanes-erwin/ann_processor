@@ -1,6 +1,6 @@
 # ANN Processor Design
 
-An implementation of an ANN processor on the Kria KV260 board.
+An implementation of an ANN processor on the Kria KV260 board. The design was implemented using 6x6 systolic matrix multiplication for a simple ANN.
 
 ## Matlab Model
 
@@ -205,7 +205,7 @@ AXIS ANN core timing diagram.
 
 ![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/axis_ann_module.png)
 
-AXIS packet showing input packet and output packet from two inferences.
+AXIS packet showing input packet and output packet from two inferences. These packets can be from and to AXI DMA in the SoC integration later on.
 
 ## SoC Design
 
