@@ -27,6 +27,8 @@ Dataset of someone's taste.
 
 The network consists of three layers: input, hidden, and output. On the input layer, there are 4 nodes. On the hidden layer, there are 5 nodes. On the output layer, there are 2 nodes.
 
+<img src="https://github.com/yohanes-erwin/ann_processor/blob/main/image/nn_arch.png" width="400" />
+
 ## Matlab Model
 
 Matlab/Octave model for training and inference:
@@ -243,7 +245,7 @@ ZYNQ configuration.
 
 ![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/zynq.png)
 
-DMA configuration.
+DMA configuration with 128-bit data stream.
 
 ![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/dma.png)
 
