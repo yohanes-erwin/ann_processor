@@ -233,7 +233,7 @@ AXIS ANN core timing diagram.
 
 ![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/axis_ann_module.png)
 
-AXIS packet showing input packet and output packet from two inferences. These packets can be from and to AXI DMA in the SoC integration later on.
+The figure shows AXIS packets. There are input and output packets. These packets can be from and to AXI DMA in the SoC integration later on.
 
 ## SoC Design
 
