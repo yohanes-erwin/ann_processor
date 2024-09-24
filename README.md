@@ -139,7 +139,7 @@ $$
 
 ## RTL Simulation
 
-### Systolic Module
+### 1. Systolic Module
 
 Simulation of `systolic.v` module using `systolic_tb.v` testbench.
 
@@ -174,7 +174,7 @@ Z_3=
 \end{bmatrix}
 $$
 
-### ANN Module
+### 2. ANN Module
 
 Simulation of `ann.v` module using `ann_tb.v` testbench.
 
@@ -183,12 +183,6 @@ Simulation of `ann.v` module using `ann_tb.v` testbench.
 ANN core timing diagram.
 
 ![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/ann_module.png)
-
-### AXIS ANN Module
-
-Simulation of `axis_ann.v` module using `axis_ann_tb.v` testbench.
-
-![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/axis_ann_module.jpg)
 
 How it works:
 1. Start the controller FSM
@@ -200,6 +194,12 @@ How it works:
 7. Output from sigmoid hidden layer 2
 8. Write output to memory
 9. Done signal
+
+### 3. AXIS ANN Module
+
+Simulation of `axis_ann.v` module using `axis_ann_tb.v` testbench.
+
+![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/axis_ann_module.jpg)
 
 AXIS ANN core timing diagram.
 
