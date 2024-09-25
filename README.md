@@ -14,14 +14,14 @@ Classification of someone's tastes to Indonesian food.
 
 Dataset of someone's taste.
 
-| Name       	| Sour 	| Sweet 	| Salty 	| Spicy 	| Taste   	| Label 	|
-|------------	|------	|-------	|-------	|-------	|---------	|-------	|
-| Sate       	| 2    	| 10    	| 5     	| 5     	| Like    	| [1,0] 	|
-| Soto       	| 7    	| 2     	| 3     	| 3     	| Dislike 	| [0,1] 	|
-| Karedok    	| 6    	| 8     	| 1     	| 6     	| Dislike 	| [0,1] 	|
-| Gudeg      	| 3    	| 10    	| 3     	| 1     	| Like    	| [1,0] 	|
-| Ikan Bakar 	| 6    	| 9     	| 5     	| 6     	| Like    	| [1,0] 	|
-| Rendang    	| 3    	| 2     	| 6     	| 10    	| Dislike 	| [0,1] 	|
+| Name       	  | Sour 	| Sweet 	| Salty 	| Spicy 	| Taste   	| Label 	|
+|-------------	|------	|-------	|-------	|-------	|---------	|-------	|
+| Sate Maranggi | 2    	| 10    	| 5     	| 3     	| Like    	| [1,0] 	|
+| Soto       	  | 7    	| 2     	| 3     	| 3     	| Dislike 	| [0,1] 	|
+| Karedok    	  | 6    	| 8     	| 1     	| 6     	| Dislike 	| [0,1] 	|
+| Gudeg      	  | 3    	| 10    	| 3     	| 1     	| Like    	| [1,0] 	|
+| Ikan Bakar 	  | 6    	| 9     	| 5     	| 6     	| Like    	| [1,0] 	|
+| Rendang    	  | 3    	| 2     	| 6     	| 10    	| Dislike 	| [0,1] 	|
 
 ### Neural Network Architecture
 
