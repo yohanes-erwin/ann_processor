@@ -259,6 +259,10 @@ Data mapping inside the DDR memory for output.
 
 ## Result
 
+FPGA utilization. The 6x6 systolic processor utilizes 36 DSP blocks.
+
+<img src="https://github.com/yohanes-erwin/ann_processor/blob/main/image/utilization.png" width="400" />
+
 Inference result from PYNQ Jupyter Notebook `ann_hw.ipynb`.
 
 ![](https://github.com/yohanes-erwin/ann_processor/blob/main/image/result.png)
