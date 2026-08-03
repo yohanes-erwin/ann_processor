@@ -11,15 +11,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
-      <ZoomEndTime time="3,000.001 ns"></ZoomEndTime>
-      <Cursor1Time time="902.630 ns"></Cursor1Time>
+      <ZoomStartTime time="97.510 ns"></ZoomStartTime>
+      <ZoomEndTime time="118.411 ns"></ZoomEndTime>
+      <Cursor1Time time="100.030 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="190"></NameColumnWidth>
-      <ValueColumnWidth column_width="59"></ValueColumnWidth>
+      <NameColumnWidth column_width="187"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="10" />
+   <WVObjectSize size="12" />
    <wvobject fp_name="/axis_ann_tb/dut/aclk" type="logic">
       <obj_property name="ElementShortName">aclk</obj_property>
       <obj_property name="ObjectShortName">aclk</obj_property>
@@ -48,6 +48,10 @@
       <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
       <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
    </wvobject>
+   <wvobject fp_name="/axis_ann_tb/dut/s_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">s_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tlast</obj_property>
+   </wvobject>
    <wvobject fp_name="/axis_ann_tb/dut/m_axis_tready" type="logic">
       <obj_property name="ElementShortName">m_axis_tready</obj_property>
       <obj_property name="ObjectShortName">m_axis_tready</obj_property>
@@ -59,5 +63,9 @@
    <wvobject fp_name="/axis_ann_tb/dut/m_axis_tvalid" type="logic">
       <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
       <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axis_ann_tb/dut/m_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">m_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tlast</obj_property>
    </wvobject>
 </wave_config>

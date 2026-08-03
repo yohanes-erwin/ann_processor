@@ -1,4 +1,2 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Repository/ann_processor/vivado/vivado.srcs/sources_1/new/axis_ann.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module axis_ann
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Repository/ann_processor/vivado/vivado.srcs/sim_1/new/axis_ann_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module axis_ann_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Repository/ann_processor/vivado/vivado.srcs/sim_1/new/ann_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ann_tb
